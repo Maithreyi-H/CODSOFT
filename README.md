@@ -1,31 +1,57 @@
-# Titanic Survival Prediction 🚢
+🚢 Titanic Survival Prediction – 2025
+📌 Project Overview
 
-This project is part of the CODSOFT Internship Task 1: Titanic Survival Prediction.
+This project predicts whether a passenger survived the Titanic disaster using Machine Learning techniques. The dataset used is the famous Titanic dataset from Kaggle.
 
-A machine learning model that predicts which passengers survived the Titanic disaster using Python and Scikit-learn.
+📊 Dataset
 
-## 🔍 Problem Statement
-Given passenger data, predict whether a passenger survived or not.
+The dataset contains information such as:
 
-## 🧠 Machine Learning Model
-- Algorithm used: `Random Forest Classifier`
-- Accuracy: ~80% (varies slightly due to randomness)
+Passenger Class (Pclass)
 
-## 📊 Features Used
-- Pclass (Ticket class)
-- Sex (Male/Female)
-- Age
-- Fare
+Gender (Sex)
 
-## 📁 Files
-- `titanic_model.ipynb`: Jupyter Notebook with the complete model
-- `README.md`: Project summary and details
+Age
 
-## 📦 Dataset
-Used dataset from [Kaggle Titanic Competition](https://www.kaggle.com/competitions/titanic/data)
+Fare
 
-## ✅ Output
-The model predicts survival with reasonable accuracy using selected features and RandomForest.
+Number of Siblings/Spouses (SibSp)
 
-## 📌 Internship Task
-This is Task 1 for the CODSOFT internship (Machine Learning Track).
+Number of Parents/Children (Parch)
+
+Embarked Port
+
+Survival Status
+
+🔍 Steps Performed
+1️⃣ Data Cleaning
+
+Handled missing values in Age and Embarked
+
+Dropped Cabin due to excessive missing values
+
+2️⃣ Exploratory Data Analysis (EDA)
+
+Analyzed survival distribution
+
+Compared survival by Gender and Passenger Class
+
+3️⃣ Feature Engineering
+
+Created FamilySize feature
+
+Encoded categorical variables
+
+4️⃣ Model Building
+
+Implemented the following models:
+
+Logistic Regression
+
+Decision Tree
+
+Random Forest
+
+5️⃣ Hyperparameter Tuning
+
+Used GridSearchCV to improve model performance.

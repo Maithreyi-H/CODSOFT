@@ -1,57 +1,37 @@
-🚢 Titanic Survival Prediction – 2025
-📌 Project Overview
+🚢 Titanic Survival Prediction – Machine Learning
 
-This project predicts whether a passenger survived the Titanic disaster using Machine Learning techniques. The dataset used is the famous Titanic dataset from Kaggle.
+📌 Objective:
 
-📊 Dataset
+Predict whether a Titanic passenger survived using machine learning techniques.
 
-The dataset contains information such as:
+🔍 Steps Taken:
 
-Passenger Class (Pclass)
+Data preprocessing
 
-Gender (Sex)
+Feature engineering (FamilySize)
 
-Age
+Model training (Random Forest & Logistic Regression)
 
-Fare
+Model evaluation and comparison
 
-Number of Siblings/Spouses (SibSp)
+📈 Models & Results:
 
-Number of Parents/Children (Parch)
+Model	Accuracy-
 
-Embarked Port
+Random Forest -	75.5%
 
-Survival Status
+Logistic Regression - 755%
 
-🔍 Steps Performed
-1️⃣ Data Cleaning
+🛠 Technologies Used:
 
-Handled missing values in Age and Embarked
+Python
 
-Dropped Cabin due to excessive missing values
+Pandas
 
-2️⃣ Exploratory Data Analysis (EDA)
+Scikit-learn
 
-Analyzed survival distribution
+▶ How to Run:
 
-Compared survival by Gender and Passenger Class
+pip install -r requirements.txt
 
-3️⃣ Feature Engineering
-
-Created FamilySize feature
-
-Encoded categorical variables
-
-4️⃣ Model Building
-
-Implemented the following models:
-
-Logistic Regression
-
-Decision Tree
-
-Random Forest
-
-5️⃣ Hyperparameter Tuning
-
-Used GridSearchCV to improve model performance.
+jupyter notebook
